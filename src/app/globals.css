@@ -8,16 +8,18 @@
 
 }
 
+body {
+  font-size: 12px !important;
+}
+
 .main-content{
   display: flex;
-  justify-content: center;
-  height: 100vh;
   background-color: white;
-  padding: 0 2rem;
+  margin-top: 35px;
 }
 
 .appBar {
-  background-color: var(--lightPink);
+  background-color: var(--lightPink) !important;
   height: 40px;
   align-items: center;
   vertical-align: middle;
@@ -25,6 +27,50 @@
 
 .appToolbar, .MuiToolbar-root{
   min-height: 40px !important;
+}
+
+.sidebar-icon{
+  margin: 10px 5px;
+}
+
+.content {
+  width: 100%;
+}
+
+.text-small{
+  font-size: 12px;
+}
+.mui-theme-518kzi-MuiListItemSecondaryAction-root {
+  right: 7px !important;
+}
+.movie-list-item {
+  padding-left: 7px !important;
+}
+
+.movie-title{
+  font-size: 15px;
+  color: var(--pink);
+  margin: 3px 0px;
+}
+
+.movie-info{
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-left: 15px;
+  line-height: 20px;
+}
+
+.text-pink{
+  color:  var(--pink);
+}
+
+.text-green{
+  color:  var(--green);
+}
+
+.text-muted{
+  color: rgb(171, 168, 168);
 }
 
 @media (min-width: 768px) {
